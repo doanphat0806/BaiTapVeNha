@@ -1,0 +1,35 @@
+.registration-table {
+    background: yellow;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header {
+    background: aqua;
+}
+
+.empty-cell, .colored-cell {
+    width: 30px;
+}
+
+.input-field, select {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.submit-button, .reset-button {
+    width: 80px;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover, .reset-button:hover {
+    background-color: #45a049;
+}
